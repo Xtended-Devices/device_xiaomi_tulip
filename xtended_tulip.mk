@@ -22,6 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
+# Maintainer
+XTENDED_MAINTAINER := nshorty
+
 # Inherit from tulip device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Some common aosp Properties
