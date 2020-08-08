@@ -1,6 +1,23 @@
 [
   {
-    "repository": "android_device_xiaomi_sdm660-common",
-    "target_path": "device/xiaomi/sdm660-common"
+    "remote": "github",
+    "repository": "Xtended-Devices/proprietary_vendor_xiaomi-tulip",
+    "target_path": "vendor/xiaomi",
+    "revision": "xq",
+    "clone-depth" : "1"
+  },
+    {
+    "remote": "github",
+    "repository": "Xtended-Devices/android_device_xiaomi_sdm660-common-tulip",
+    "target_path": "device/xiaomi/sdm660-common",
+    "revision": "xq",
+    "clone-depth" : "1"
+  },
+  {
+    "remote": "github",
+    "repository": "xiaomi-sdm660/android_kernel_xiaomi_sdm660",
+    "target_path": "kernel/xiaomi/tulip",
+    "branch": "master",
+    "clone-depth" : "1"
   }
 ]
