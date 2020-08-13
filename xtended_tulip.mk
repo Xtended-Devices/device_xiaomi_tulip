@@ -22,7 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
-# Maintainer
+# Xtension
+XTENDED_BUILD_TYPE := OFFICIAL
 XTENDED_MAINTAINER := nshorty
 
 # Inherit from tulip device
