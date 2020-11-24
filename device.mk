@@ -17,6 +17,10 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     NotchBarKiller
 
+# Camera
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Soong namespaces
