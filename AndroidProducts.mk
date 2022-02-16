@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/komodo_tulip.mk
+    $(LOCAL_DIR)/xtended_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-    komodo_tulip-user \
-    komodo_tulip-userdebug \
-    komodo_tulip-eng
+    xtended_tulip-user \
+    xtended_tulip-userdebug \
+    xtended_tulip-eng
