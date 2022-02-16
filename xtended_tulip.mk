@@ -15,6 +15,9 @@ $(call inherit-product, vendor/xtended/config/common_full.mk)
 # Inherit from tulip device
 $(call inherit-product, device/xiaomi/tulip/device.mk)
 
+# Face unlock
+TARGET_USES_FACE_UNLOCK := true
+
 # Device Info
 PRODUCT_NAME := xtended_tulip
 PRODUCT_DEVICE := tulip
