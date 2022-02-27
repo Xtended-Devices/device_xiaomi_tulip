@@ -18,6 +18,10 @@ $(call inherit-product, device/xiaomi/tulip/device.mk)
 # Face unlock
 TARGET_USES_FACE_UNLOCK := true
 
+# Xtended stuff
+XTENDED_BUILD_TYPE := OFFICIAL
+XTENDED_BUILD_MAINTAINER := ＭＯＣＨＡ
+
 # Device Info
 PRODUCT_NAME := xtended_tulip
 PRODUCT_DEVICE := tulip
